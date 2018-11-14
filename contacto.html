@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Contacto</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <!-- Material que se repite en todas las páginas INICIO -->
+    <!-- Nombre de la empresa y barra de navegación principal -->
+    <nav>
+        <div class="container">
+            <div class="logo-empresa">
+                <h1>Estética Canina Rodriguez</h1>
+            </div>
+            <div class="enlaces-nav">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="mision.html">Misión</a>
+                    </li>
+                    <li class="pagina-actual">
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Material que se repite en todas las páginas FINAL -->
+
+    <!-- Contacto | Inicio -->
+    <div id="contacto-contenedor-externo" class="card-container">
+        <div class="container">
+            <div id="contacto-contenedor-interno">
+                <div class="contacto-tarjeta">
+                    <h3>Matriz</h3>
+                    <p>Prol. Paseo de los Heroes 96-98, Zona Urbana Rio Tijuana, 22010 Tijuana, Baja California</p>
+                    <i class="fas fa-mobile-alt"></i>
+                    <p class="phone">6-84-2488</p>
+                </div>
+                <div class="contacto-tarjeta">
+                    <h3>Sucursal Las Ferias</h3>
+                    <p>Colonia Camino Real, Código Postal 22195, Tijuana, Baja California</p>
+                    <i class="fas fa-mobile-alt"></i>
+                    <p class="phone">6-97-2345</p>
+                </div>
+                <div class="contacto-tarjeta">
+                    <h3>Webmaster</h3>
+                    <p><a href="http://tuwebmaster.com">Portafolio</a></p>
+                    <i class="fas fa-mobile-alt"></i>
+                    <p class="phone">6-55-8871</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Forma para enviar mensajes -->
+        <div class="forma-de-contacto">
+            <!-- "action" establece a que URL (dirección) se deberá enviar la información del formulario | "method" establece el método utilizado por HTTP para "subir" la información introducida en el formulario -->
+            <form action="https://formspree.io/josuegardunoruiz@gmail.com" method="POST">
+                <!-- Todo campo de información debe tener un atributo "name" -->
+                <span class="titulo-forma">Nombre:</span>
+                <input type="text" name="nombre" class="borde-forma" id="" placeholder="Nombre">
+                <span class="titulo-forma">Apellido:</span>
+                <input type="text" name="apellido" class="borde-forma" id="" placeholder="Apellido">
+                <span class="titulo-forma">E-mail:</span>
+                <input type="email" name="correo" class="borde-forma" id="" placeholder="Correo electrónico">
+                <span class="titulo-forma">Mensaje:</span>
+                <textarea name="mensaje" class="borde-forma" id="" cols="34" rows="10" placeholder="Tu mensaje"></textarea>
+                <input type="submit" class="btn-dark enviar" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+    <!-- Material que se repite en todas las páginas INICIO -->
+    <footer>
+        <div class="container">
+            <p>Josué Garduño &copy; 2018</p>
+        </div>
+    </footer>
+    <!-- Material que se repite en todas las páginas FINAL -->
+    
+</body>
+</html>
