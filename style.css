@@ -561,7 +561,7 @@ i {
     .m-polaroid-interno-1 {
         height: 271px;
         width: 370px;
-        background-image: url('polaroid-5.jpeg');
+        background-image: url('img/polaroid-5.jpeg');
         background-size: cover;
         margin: 5px 0px;
     }
@@ -569,13 +569,15 @@ i {
     .m-polaroid-interno-2 {
         height: 271px;
         width: 370px;
-        background-image: url('polaroid-6.jpeg');
+        background-image: url('img/polaroid-6.jpeg');
         background-size: cover;
         margin: 5px 0px;
     }
 }
 
 @media screen and (max-width: 699px) {
+    
+    /* Mision */
     .mision-polaroids-interno {
         width: 94%;
     }
@@ -592,5 +594,53 @@ i {
         padding: 10px 0px;
     }
 }
+
+@media screen and (max-width: 629px) {
+    
+    .tarjeta-servicio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 200px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 2px;
+        box-shadow: 1px 2px 3px  rgba(51, 51, 51, 0.2);
+        text-align: center;
+    }
+    
+    .tarjeta-servicio-polaroid {
+        height: 100%;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 2px;
+        box-shadow: 1px 2px 3px  rgba(51, 51, 51, 0.2);
+    }
+    
+    .polaroid {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        box-shadow: 1px 2px 4px  rgba(51, 51, 51, 0.4);
+    }
+    
+    #polaroid-1 {
+        background-image: url('img/polaroid-1.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+    }
+    
+    #polaroid-2 {
+        background-image: url('img/polaroid-2.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+    }
 
 /* Sitio web diseñado en su totalidad por Josué Garduño | 2018 */
